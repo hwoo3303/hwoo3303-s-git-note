@@ -20,6 +20,10 @@ git 용어 및 사용법 정리
 - git diff                          : 파일 변경사항 확인
 - git diff --staged                 : 파일 변경사항 상세(staging area) 확인
 - git diff -h                       : git diff의 세부 옵션 확인
+- git commit                        : 로컬 저장소에 커밋
+- git push                          : 원격 저장소에 푸시
+- git push -u origin master         : 원격 저장소 master 브랜치에 푸시
+- git push -u origin +master        : 원격 저장소 master 브랜치에 강제로 푸시(데이터 유실 위험이 있음)
 
 2. SourceTree 사용법
 - Create Remote Repository : 서버에 repository 생성
